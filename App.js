@@ -4,11 +4,9 @@ import HomePage from './src/component/HomePage';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <HomePage />
-      </ScrollView>
-    </SafeAreaView>
+    <View>
+      <Text>Hello World</Text>
+    </View>
   );
 };
 
